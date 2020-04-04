@@ -103,7 +103,6 @@ func convertCsv2Json(csvFilePath string) {
 	}
 
 	dumpJson(outputJson)
-	fmt.Println(string(outputJson))
 }
 
 func dumpJson(jsonData []byte) {
